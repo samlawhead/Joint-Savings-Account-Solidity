@@ -12,28 +12,46 @@ This application is a smart contract that function as a joint bank account that 
 
 No libary installation is necessary, simply clone this github repository to Remix IDE.
 
-<img src=https://github.com/samlawhead/Fintech-Finder/blob/main/screenshots/Screen%20Shot%202022-10-04%20at%2018.28.36.png>
-
 Then deploy the contract. Once deployed the contract is ready to use.
 
-<img src=https://github.com/samlawhead/Fintech-Finder/blob/main/screenshots/Screen%20Shot%202022-10-04%20at%2018.29.02.png>
+<img src=https://github.com/samlawhead/Joint-Savings-Account-Solidity/blob/main/screenshots/Screen%20Shot%202022-10-13%20at%2013.16.52.png>
 
-<img src=https://github.com/samlawhead/Fintech-Finder/blob/main/screenshots/Screen%20Shot%202022-10-04%20at%2018.29.26.png>
+<img src=https://github.com/samlawhead/Joint-Savings-Account-Solidity/blob/main/screenshots/Screen%20Shot%202022-10-13%20at%2013.17.31.png>
 
 ---
 
 ## Usage
 
-Here are some gangsta screen shots of what I am doing here.
+To use the account fund the account. Here I have made three deposits 1 ether, 5 ether and 10 ether.
 
 Set accounts function
-<img src=https://github.com/samlawhead/Fintech-Finder/blob/main/screenshots/Screen%20Shot%202022-10-04%20at%2018.28.36.png>
+<img src=https://github.com/samlawhead/Joint-Savings-Account-Solidity/blob/main/screenshots/Screen%20Shot%202022-10-13%20at%2013.23.40.png>
 
 Deposit function
-<img src=https://github.com/samlawhead/Fintech-Finder/blob/main/screenshots/Screen%20Shot%202022-10-04%20at%2018.29.02.png>
+<img src=https://github.com/samlawhead/Joint-Savings-Account-Solidity/blob/main/screenshots/Screen%20Shot%202022-10-13%20at%2013.31.23.png>
+
+Here we use the contractBalance function to confirm the deposit was successful
+<img src=https://github.com/samlawhead/Joint-Savings-Account-Solidity/blob/main/screenshots/Screen%20Shot%202022-10-13%20at%2013.31.35.png>
+
+10 ether deposit is successful
+<img src=https://github.com/samlawhead/Joint-Savings-Account-Solidity/blob/main/screenshots/Screen%20Shot%202022-10-13%20at%2013.33.46.png>
+
+5 ether deposit is successful
+<img src=https://github.com/samlawhead/Joint-Savings-Account-Solidity/blob/main/screenshots/Screen%20Shot%202022-10-13%20at%2013.34.10.png>
 
 Withdraw function
-<img src=https://github.com/samlawhead/Fintech-Finder/blob/main/screenshots/Screen%20Shot%202022-10-04%20at%2018.29.26.png>
+
+Withdrawing 5 ether to account 1
+<img src=https://github.com/samlawhead/Joint-Savings-Account-Solidity/blob/main/screenshots/Screen%20Shot%202022-10-13%20at%2013.37.35.png>
+
+Withdrawal was successful
+<img src=https://github.com/samlawhead/Joint-Savings-Account-Solidity/blob/main/screenshots/Screen%20Shot%202022-10-13%20at%2013.37.55.png>
+
+Withdrawing 10 ether to account 2
+<img src=https://github.com/samlawhead/Joint-Savings-Account-Solidity/blob/main/screenshots/Screen%20Shot%202022-10-13%20at%2013.38.17.png>
+
+contractBalance function, lastWithdrawal function and LastToWithdraw functions respectively show the current balance, who was the last to withdraw funds and how much they withdrew
+<img src=https://github.com/samlawhead/Joint-Savings-Account-Solidity/blob/main/screenshots/Screen%20Shot%202022-10-13%20at%2014.07.13.png>
 
 ---
 
