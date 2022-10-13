@@ -4,15 +4,20 @@
 
 ## Technologies
 
-This application leverages Solidity:
+This application is a smart contract that function as a joint bank account that allows two users to utilize a shared account to deposit and withdraw ethereum.
 
 ---
 
 ## Installation Guide
-No installation is necessary, 
+
+No installation is necessary, simply clone github repository to Remix IDE.
 
 <img src=https://github.com/samlawhead/Fintech-Finder/blob/main/screenshots/Screen%20Shot%202022-10-04%20at%2018.28.36.png>
+
+Then deploy the contract. Once deployed the contract is ready to use.
+
 <img src=https://github.com/samlawhead/Fintech-Finder/blob/main/screenshots/Screen%20Shot%202022-10-04%20at%2018.29.02.png>
+
 <img src=https://github.com/samlawhead/Fintech-Finder/blob/main/screenshots/Screen%20Shot%202022-10-04%20at%2018.29.26.png>
 
 ---
@@ -21,8 +26,13 @@ No installation is necessary,
 
 Here are some gangsta screen shots of what I am doing here.
 
+Set accounts function
 <img src=https://github.com/samlawhead/Fintech-Finder/blob/main/screenshots/Screen%20Shot%202022-10-04%20at%2018.28.36.png>
+
+Deposit function
 <img src=https://github.com/samlawhead/Fintech-Finder/blob/main/screenshots/Screen%20Shot%202022-10-04%20at%2018.29.02.png>
+
+Withdraw function
 <img src=https://github.com/samlawhead/Fintech-Finder/blob/main/screenshots/Screen%20Shot%202022-10-04%20at%2018.29.26.png>
 
 ---
